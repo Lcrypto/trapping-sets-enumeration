@@ -1,0 +1,1 @@
+TS_enum.exe -fast -qc 1320  -maxit 20 -gamma 0.3 -rl 50  -critical Margulis2640.1320.3.graph Margulis2640.1320.3_2.trap

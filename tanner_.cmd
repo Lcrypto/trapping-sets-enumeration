@@ -1,0 +1,1 @@
+ TS_enum.exe   -maxit 25 -fast  -qc 31 -x  2  tanner.graph tanner.trap

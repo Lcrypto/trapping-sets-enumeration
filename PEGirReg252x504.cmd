@@ -1,0 +1,1 @@
+ TS_enum.exe   -maxit 25 -fast   -x  2  PEGirReg252x504.graph PEGirReg252x504.trap
