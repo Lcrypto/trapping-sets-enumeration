@@ -12,6 +12,7 @@ sparse2graph(H, 'tanner.graph');
 
 TS_enum.exe -maxit 25 -fast  -qc 31 -x  2  tanner.graph tanner.trap
 
+
 Example 2 (sparse represenation):
 H=alist2sparse('PEGirReg252x504'); 
 sparse2graph(H, 'PEGirReg252x504.graph');
