@@ -1,0 +1,1 @@
+TS_enum.exe -fast   -maxit 20 -gamma 0.3 -rl 50  -critical 9_3.graph 9_3.graph.trap
