@@ -19,3 +19,14 @@ sparse2graph(H, 'PEGirReg252x504.graph');
 
 
 TS_enum.exe -maxit 25 -fast   PEGirReg252x504.graph PEGirReg252x504.trap
+
+
+Example 3 from 
+
+
+Tao Tian, C. R. Jones, J. D. Villasenor and R. D. Wesel, "Selective avoidance of cycles in irregular LDPC code construction," in IEEE Transactions on Communications, vol. 52, no. 8, pp. 1242-1247, Aug. 2004.
+
+
+load 9_3.mat
+sparse2graph(a, '9_3.graph')
+run bat file '9_3.cmd'
