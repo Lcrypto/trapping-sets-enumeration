@@ -28,5 +28,9 @@ Tao Tian, C. R. Jones, J. D. Villasenor and R. D. Wesel, "Selective avoidance of
 
 
 load 9_3.mat
+
+
 sparse2graph(a, '9_3.graph')
+
+
 run bat file '9_3.cmd'
