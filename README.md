@@ -1,8 +1,10 @@
 # trapping-sets-enumeration
-Enumerating of Trapping sets using Cole Impulse tree method "C. A. Cole, S. G. Wilson, E. K. Hall and T. R. Giallorenzi, “A general
-method for finding low error rates of LDPC codes, ” submitted to IEEE Trans. on Inform. Theory, June 2006." https://arxiv.org/abs/cs/0605051
+
+Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his Matlab source code for Trapping Sets analysis, famous research in detail described at report
+Chad A. Cole, Eric. K. Hall A General Method for Finding Low Error Rates of LDPC Codes https://arxiv.org/abs/cs/0605051 and in paper Enumerating of Trapping sets using Cole Impulse tree method "C. A. Cole, S. G. Wilson, E. K. Hall and T. R. Giallorenzi, “A general method for finding low error rates of LDPC codes, ” submitted to IEEE Trans. on Inform. Theory, June 2006.". Thank you very much Dr. Chad A. Cole!
 Impulse tree have size (3,5), for bigger tree it take too lot of time and require use multi-core CPU or GPU implementation.
 To use first convert from sparse (alist) or quasi-cyclic (qc) representation to graph represetation using sparse2graph matlab script after run enumerating trapping sets. Source code shall be upload after publishing paper about probabalistical relaxation of Cole's method.
+
 
 
 Example 1 (QC representation):
