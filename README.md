@@ -47,5 +47,5 @@ run bat file '9_3.cmd'
 
 
 
-Due to limitation relaxation version and related articles shall be published after 12.10.2025. However, when I have free time, I will publish an article and source files to Trapping set search method in a less effective, but using much more general approach, based on the ideas outlined in my Phd Thesis, "Topologically Driven Methods for Construction Of Multi-Edge Type (Multigraph with nodes puncturing) Quasi-Cyclic Low-density Parity-check Codes for Wireless Channel, WDM Long-Haul and Archival Holographic Memory", https://arxiv.org/abs/2011.14753. 
+ When I have free time, I will publish an source files to Trapping set search method based on the ideas outlined in my Phd Thesis, "Topologically Driven Methods for Construction Of Multi-Edge Type (Multigraph with nodes puncturing) Quasi-Cyclic Low-density Parity-check Codes for Wireless Channel, WDM Long-Haul and Archival Holographic Memory", https://arxiv.org/abs/2011.14753. 
 
