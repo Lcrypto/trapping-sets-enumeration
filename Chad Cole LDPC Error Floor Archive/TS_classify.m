@@ -1,3 +1,5 @@
+%% This software was developed by Chad Cole as a grad student while funded by L-3
+%% Communications West.
 %%% Must have H_sparse for the proper TS in the workspace for this to work.
 %%%  Returns in 'temp' the (a,b) characteristics of the TS in TS structure
 num_TS = length(TS(:,1));
