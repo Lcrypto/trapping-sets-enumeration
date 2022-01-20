@@ -1,6 +1,8 @@
 %%%%%%%%%%%%%
 %% ISldpc_ms_new_doc.m - Requires input H_sparse matrix.
 %%
+%% This software was developed by Chad Cole as a grad student while funded by L-3
+%% Communications West.
 %%  This program implements the last step of the 3-step program outlined
 %%  in "A General Method for Finding Low Error Rates of LDPC Codes."  The
 %%  last step uses the technique of importance sampling (IS) to get a
