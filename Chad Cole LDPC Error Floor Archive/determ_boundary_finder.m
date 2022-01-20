@@ -1,4 +1,6 @@
 %%%%%%%%%
+% This software was developed by Chad Cole as a grad student while funded by L-3
+% Communications West.
 % This file contains the implementation of Step-2 of the 3-Step error floor
 %   analysis procedure.  The input is an H matrix in sparse format called
 %   H_sparse.  The output variable is d_e_2 which should be saved and used
