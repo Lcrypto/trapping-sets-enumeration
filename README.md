@@ -1,4 +1,4 @@
-# trapping-sets-enumeration
+# LDPC  trapping sets enumeration methods
 
 Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his Matlab source code for Trapping Sets analysis, famous research in detail described at report
 Chad A. Cole, Eric. K. Hall A General Method for Finding Low Error Rates of LDPC Codes https://arxiv.org/abs/cs/0605051 and in paper Enumerating of Trapping sets using Cole Impulse tree method "C. A. Cole, S. G. Wilson, E. K. Hall and T. R. Giallorenzi, “A general method for finding low error rates of LDPC codes, ” submitted to IEEE Trans. on Inform. Theory, June 2006.". 
