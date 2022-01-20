@@ -9,7 +9,7 @@ Thank you very much Dr. Chad A. Cole!
 
 
 Impulse tree have size (3,5), for bigger tree it take too lot of time and require use multi-core CPU or GPU implementation.
-To use first convert from sparse (alist) or quasi-cyclic (qc) representation to graph represetation using sparse2graph matlab script after run enumerating trapping sets. Source code shall be upload after publishing paper about probabalistical relaxation of Cole's method.
+To use first convert from sparse (alist) or quasi-cyclic (qc) representation to graph represetation using sparse2graph matlab script after run enumerating trapping sets. Source code shall be upload after publishing paper about probabalistical relaxation of Cole's method. Due to NDA limitation it shall be published after 12.10.2025.
 
 
 
