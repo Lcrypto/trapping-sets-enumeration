@@ -36,7 +36,7 @@ run bat file '9_3.cmd'
 
 
 
-Parameters of 
+Parameters of TS_enum.exe:
 
 
 
