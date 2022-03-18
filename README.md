@@ -106,6 +106,9 @@ Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his 
 Thank you very much Dr. Chad A. Cole!
 
 
+References
+
+
 [1].  Chad A. Cole, et al. Hall A General Method for Finding Low Error Rates of LDPC Codes, May 2006 https://arxiv.org/abs/cs/0605051
 
 
