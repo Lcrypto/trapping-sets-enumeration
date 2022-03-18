@@ -1,12 +1,7 @@
 # Importance Sampling Cole's  LDPC trapping sets enumeration and weighing method
 
 
-
-
-
-
-
-Root folder of repo contain instruction to use binary file TS_enum.exe implementation of Cole's Trapping sets enumeration method:
+Root folder of repo contain instruction to use binary file TS_enum.exe implementation of Cole's Trapping sets enumeration method, [1,2]:
 
 
 Impulse tree have size (3,5), for bigger tree it take too lot of time and require use multi-core CPU or GPU implementation.
@@ -30,9 +25,7 @@ sparse2graph(H, 'PEGirReg252x504.graph');
 TS_enum.exe -maxit 25 -fast   PEGirReg252x504.graph PEGirReg252x504.trap
 
 
-Example 3 from 
-
-Tao Tian, C. R. Jones, J. D. Villasenor and R. D. Wesel, "Selective avoidance of cycles in irregular LDPC code construction," in IEEE Transactions on Communications, vol. 52, no. 8, pp. 1242-1247, Aug. 2004.
+Example 3 code from [3]: 
 
 
 load 9_3.mat
@@ -43,13 +36,22 @@ run bat file '9_3.cmd'
 
 
 
-Parameters of TS_enum.exe
+Parameters of 
+
+
+
+TS_enum.exe   tanner_graph.alist_like_format  output_list_TS 
+
+
+
+
   tanner_graph.alist_like_format  Define parity-check matrix file
 
   output_list_TS                  Define output file with list of TS.
 
-Options:
-  -?, --?, -help, --help          Produce help message.
+
+
+Optional parameters:
 
   -x channel_factor               Channel factor. By default equal 4.0.
 
@@ -98,10 +100,14 @@ Options:
 
 
 P.S.
-Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his Matlab source code (folder Chad Cole LDPC Error Floor Archive) for Trapping Sets analysis, famous research in detail described at report
-Chad A. Cole, et al. Hall A General Method for Finding Low Error Rates of LDPC Codes, May 2006 https://arxiv.org/abs/cs/0605051 and in paper  "C. A. Cole, S. G. Wilson, E. K. Hall and T. R. Giallorenzi, “A general method for finding low error rates of LDPC codes, ” submitted to IEEE Trans. on Inform. Theory, June 2006.". 
+Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his Matlab source code (folder Chad Cole LDPC Error Floor Archive) for Trapping Sets analysis, famous research in detail described at report [1] and in paper [2]. 
 
 
 Thank you very much Dr. Chad A. Cole!
+
+
+[1].  Chad A. Cole, et al. Hall A General Method for Finding Low Error Rates of LDPC Codes, May 2006 https://arxiv.org/abs/cs/0605051
+[2].  "C. A. Cole, S. G. Wilson, E. K. Hall and T. R. Giallorenzi, “A general method for finding low error rates of LDPC codes, ” submitted to IEEE Trans. on Inform. Theory, June 2006."
+[3]. Tao Tian, C. R. Jones, J. D. Villasenor and R. D. Wesel, "Selective avoidance of cycles in irregular LDPC code construction," in IEEE Transactions on Communications, vol. 52, no. 8, pp. 1242-1247, Aug. 2004.
 
 
