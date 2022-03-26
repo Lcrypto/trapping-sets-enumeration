@@ -1,4 +1,4 @@
-function sparse2graph(H, filename)
+function sparse2graph2(H, filename)
     file = fopen(filename, 'w');
     
     [M, N] = size(H);
@@ -14,8 +14,7 @@ function sparse2graph(H, filename)
         indexes = full(find(H(i, :)));
         pad_size = max_row - length(indexes);
         if  pad_size > 0
-            %indexes = [indexes zeros(1, pad_size)];
-            indexes = [indexes];
+            indexes = [indexes zeros(1, pad_size-1)]; %corrected to c authomorphism TS enumeration and weighing
         end
         fprintf(file, '%d ', indexes);
         fprintf(file, '\n');
