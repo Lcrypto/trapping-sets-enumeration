@@ -1,0 +1,27 @@
+girth = 4	256 cycles
+EMD	Number
+3	256
+girth = 6	23296 cycles
+EMD	Number
+3	256
+4	128
+5	4608
+6	18304
+girth = 8	987776 cycles
+EMD	Number
+3	128
+4	384
+5	11776
+6	44032
+7	262400
+8	669056
+girth = 10	39757568 cycles
+EMD	Number
+3	256
+4	1536
+5	23808
+6	148480
+7	742656
+8	3123456
+9	11921536
+10	23795840
