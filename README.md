@@ -1,5 +1,5 @@
 # Importance Sampling Cole's  LDPC trapping sets enumeration and weighing method
-
+Folder "Article An Modified Cole's Importance Sampling Method For Low Error Floor QC-LDPC Codes Construction" contained parity-check matrix, EMD Spectrum Enumerator and Trapping set enumerator (w\ot ordering) in zip compresed files of five code constructed for article An Modified Cole's Importance Sampling Method For Low Error Floor QC-LDPC Codes Construction.
 
 ![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/SZ_Lin_Weigh_Sim.png)
 
