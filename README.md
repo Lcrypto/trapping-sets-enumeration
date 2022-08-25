@@ -3,7 +3,7 @@ Subfolder ["Article An Modified Cole's Importance Sampling Method For Low Error 
 
 ![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/SZ_Lin_Weigh_Sim.png)
 
-Subfolder [Chad Cole LDPC Error Floor Archive] (https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Chad%20Cole%20LDPC%20Error%20Floor%20Archive)
+Subfolder ["Chad Cole LDPC Error Floor Archive"](https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Chad%20Cole%20LDPC%20Error%20Floor%20Archive)
 contained  Dr. Chad A. Cole Importance Sampling for Trapping set enumerating and weighing Matlab source code.
 
 Root folder of repo contain instruction to use binary file TS_enum.exe implementation of Cole's Trapping sets enumeration method, [1,2]:
