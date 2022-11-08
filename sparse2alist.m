@@ -1,4 +1,4 @@
-function sparse2alist(H,file)
+function sparse2alist(H,filename)
 
 A = full(H);
 
@@ -22,26 +22,25 @@ end
 maxinrows = max(ratebyrows);
 maxincols = max(ratebycols);
 
-%fID = fopen("alist.txt", 'w');
-fID = fopen(file, 'w');
-fprintf(fID,'%d\t', M, N);
+fID = fopen(filename, 'w');
+fprintf(fID,'%d\t', N, M);
 fprintf(fID,'\n');
-fprintf(fID,'%d\t', maxinrows, maxincols);
-fprintf(fID,'\n');
-fprintf(fID,'%d\t', ratebyrows);
+fprintf(fID,'%d\t', maxincols, maxinrows);
 fprintf(fID,'\n');
 fprintf(fID,'%d\t', ratebycols);
 fprintf(fID,'\n');
-
-for i = 1:M
-    rateinrow = find(A(i,:));
-    fprintf(fID,'%d\t', rateinrow);
-    fprintf(fID,'\n');
-end
+fprintf(fID,'%d\t', ratebyrows);
+fprintf(fID,'\n');
 
 for i = 1:N
     rateincol = find(A(:,i));
     fprintf(fID,'%d\t', rateincol);
+    fprintf(fID,'\n');
+end
+
+for i = 1:M
+    rateinrow = find(A(i,:));
+    fprintf(fID,'%d\t', rateinrow);
     fprintf(fID,'\n');
 end
 
