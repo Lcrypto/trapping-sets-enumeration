@@ -114,7 +114,7 @@ P.S.
 Upd: 20 January 2022. Gift for the New Year)  Dr. Chad A. Cole kindly share his Matlab source code (folder Chad Cole LDPC Error Floor Archive) for Trapping Sets analysis, famous research in detail described at report [1] and in paper [2]. 
 
 
-Thank you very much Dr. Chad A. Cole!
+Thank you very much Dr. Chad A. Cole!  Github of  Dr. Chad A. Cole   https://github.com/chadac8j
 
 
 References
