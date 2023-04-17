@@ -1,0 +1,101 @@
+CPXPARAM_Output_CloneLog                         1
+CPXPARAM_MIP_Interval                            20
+CPXPARAM_MIP_Strategy_VariableSelect             1
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 3 columns.
+Reduced MIP has 1321 rows, 5277 columns, and 13188 nonzeros.
+Reduced MIP has 3957 binaries, 1320 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (5.58 ticks)
+Found incumbent of value 28.000000 after 0.01 sec. (9.19 ticks)
+Probing time = 0.00 sec. (0.63 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1321 rows, 5277 columns, and 13188 nonzeros.
+Reduced MIP has 3957 binaries, 1320 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (7.75 ticks)
+Probing time = 0.00 sec. (0.63 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.00 sec. (2.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           28.0000        0.0000           100.00%
+      0     0        0.0000    28       28.0000        0.0000        0  100.00%
+      0     0        0.0000    24       28.0000      Cuts: 81       20  100.00%
+*     0+    0                           12.0000        0.0000           100.00%
+      0     0        0.0000    12       12.0000      Cuts: 46       40  100.00%
+      0     0        0.0000    12       12.0000   MIRcuts: 24       55  100.00%
+      0     0        0.0000    12       12.0000   MIRcuts: 24       71  100.00%
+      0     2        0.0000    12       12.0000        0.0000       71  100.00%
+Elapsed time = 0.48 sec. (118.25 ticks, tree = 0.01 MB, solutions = 2)
+    100    61        2.0000    10       10.0000        1.0000      296   90.00%
+    260   144        4.0000     8       10.0000        1.0000      592   90.00%
+    780   554        7.0000     5       10.0000        1.5000     1674   85.00%
+   1220   938        6.0000     6       10.0000        1.5000     2775   85.00%
+   1560  1094        6.0000     8       10.0000        1.5000     3265   85.00%
+   1940  1260        5.0000     5       10.0000        1.5000     3654   85.00%
+   2340  1741        3.0000     9        8.0000        2.0000     5033   75.00%
+   2420  1575        6.0000     4        8.0000        2.0000     4545   75.00%
+   3540  1814        3.0000     7        8.0000        2.0000     6686   75.00%
+   4340  2635        3.0000    11        8.0000        2.0000     8843   75.00%
+   4420  2657        5.0000     7        8.0000        2.0000     8919   75.00%
+   5080  3118        5.0000     9        8.0000        2.0000    10234   75.00%
+   5860  2620        3.0000     7        6.0000        3.0000    14330   50.00%
+   7120   492        4.8000    23        6.0000        3.6000    26103   40.00%
+   7800   703        5.0000     7        6.0000        3.6000    30555   40.00%
+Elapsed time = 2.34 sec. (836.49 ticks, tree = 0.79 MB, solutions = 10)
+   9500  1527        5.0000    17        6.0000        4.0000    42520   33.33%
+  10140  1572    infeasible              6.0000        4.0000    43680   33.33%
+  10220  1579        5.0000     7        6.0000        4.0000    44139   33.33%
+  12920  2204        4.8000    25        6.0000        4.4000    59531   26.67%
+  13160  2150        4.6667    17        6.0000        4.4000    58343   26.67%
+  15900  2444        5.0000     7        6.0000        4.5714    71814   23.81%
+  16860  2459        5.0000     9        6.0000        4.6000    78339   23.33%
+  17300  2381        5.0000     7        6.0000        4.6667    80215   22.22%
+  18120  2317        5.0000     9        6.0000        4.6667    82084   22.22%
+  18280  2319    infeasible              6.0000        4.6667    83210   22.22%
+  19520  1775    infeasible              6.0000        4.6667    85004   22.22%
+  19800  1627    infeasible              6.0000        4.6667    85362   22.22%
+Elapsed time = 3.58 sec. (1299.92 ticks, tree = 0.85 MB, solutions = 10)
+  20640  1747        5.0000     7        6.0000        4.6667    85198   22.22%
+  20780  1079    infeasible              6.0000        4.6667    87189   22.22%
+Implied bound cuts applied:  7
+Mixed integer rounding cuts applied:  259
+Zero-half cuts applied:  23
+Gomory fractional cuts applied:  81
+
+Root node processing (before b&c):
+  Real time             =    0.23 sec. (117.67 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    5.06 sec. (1283.50 ticks)
+  Sync time (average)   =    2.43 sec.
+  Wait time (average)   =    0.05 sec.
+                          ------------
+Total (root+branch&cut) =    5.30 sec. (1401.17 ticks)
+
+Solution status = integer optimal solution 
+Solution value = 6.000000 
+TS variable nodes, (x_0)...(x_end) on Fig: 1 381 471 1691 1935 1988 2263 2412 2587 2617 
+TS check nodes, (c_0)...(c_end) on Fig: 5 60 370 382 460 568 572 611 646 714 782 850 888 1100 1125 1137 1223 1253 
+Trapping_set_submatrix =
+
+     1     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     0     0     1     1
+     0     1     0     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0
+     0     0     1     0     0     0     1     0     0     0
+     0     0     0     0     0     1     0     0     0     1
+     0     0     1     0     0     0     0     0     0     0
+     0     0     0     1     1     0     0     0     0     0
+     0     0     0     0     0     1     0     0     0     0
+     0     0     1     0     1     0     0     0     0     0
+     0     0     0     1     0     1     0     0     0     0
+     0     0     0     0     1     0     0     0     1     0
+     0     0     0     0     0     0     1     0     0     0
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     0
+     1     0     0     0     0     0     1     0     0     0
+     0     1     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     0     0     0     1
