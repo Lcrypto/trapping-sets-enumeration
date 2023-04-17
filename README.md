@@ -113,8 +113,15 @@ To demonstrate the effectiveness of the proposed modified Cole method over linea
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 1 381 471 1691 1935 1988 2263 2412 2587 2617 
+
+
 TS check nodes, (c_0)...(c_end) on Fig: 5 60 370 382 460 568 572 611 646 714 782 850 888 1100 1125 1137 1223 1253 
+
+
+
 Trapping_set_submatrix =
+
+
 
      1     0     0     0     0     0     0     1     0     0
      0     0     0     0     0     0     0     0     1     1
