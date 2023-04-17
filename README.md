@@ -107,6 +107,36 @@ Optional parameters:
                                   By default equal limeted only by impulse tree size settings.
 
 
+
+
+To demonstrate the effectiveness of the proposed modified Cole method over linear programming methods , let 's consider a simple search example TS(10,6)  at Margulis Code. Search with apprior knowledge of 1 381 471 variable nodes which contain it, using CPLEX 12.8 takes 5.30 sec. (1401.17 ticks), Parallel mode: deterministic, using up to 32 threads. The proposed modified Cole method in one process finds 66 Trapping set, including this one TS(10,6) in less than one second.
+
+
+TS variable nodes, (x_0)...(x_end) on Fig: 1 381 471 1691 1935 1988 2263 2412 2587 2617 
+TS check nodes, (c_0)...(c_end) on Fig: 5 60 370 382 460 568 572 611 646 714 782 850 888 1100 1125 1137 1223 1253 
+Trapping_set_submatrix =
+
+     1     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     0     0     1     1
+     0     1     0     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0
+     0     0     1     0     0     0     1     0     0     0
+     0     0     0     0     0     1     0     0     0     1
+     0     0     1     0     0     0     0     0     0     0
+     0     0     0     1     1     0     0     0     0     0
+     0     0     0     0     0     1     0     0     0     0
+     0     0     1     0     1     0     0     0     0     0
+     0     0     0     1     0     1     0     0     0     0
+     0     0     0     0     1     0     0     0     1     0
+     0     0     0     0     0     0     1     0     0     0
+     1     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     0
+     1     0     0     0     0     0     1     0     0     0
+     0     1     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     0     0     0     1
+
+
+
  When I have free time, I will publish an source files to Trapping set search method based on the LP outlined in my Phd Thesis, "Topologically Driven Methods for Construction Of Multi-Edge Type (Multigraph with nodes puncturing) Quasi-Cyclic Low-density Parity-check Codes for Wireless Channel, WDM Long-Haul and Archival Holographic Memory", https://arxiv.org/abs/2011.14753. 
 
 
