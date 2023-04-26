@@ -43,8 +43,12 @@ Trapping_set_submatrix =
      0     0     0     1     0     0     0     0     0     1     0     0     0     0
 
 
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(17%2C%204).png)
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(17%2C%204).png
+
+
+
+
 
 TS variable nodes, (x_0)...(x_end) on Fig: 53 113 160 172 206 362 765 1212 1340 1537 1579 1805 1835 1926 2233 2351 2360 
 
@@ -92,7 +96,11 @@ Trapping_set_submatrix =
 
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(18%2C%205).png
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(18%2C%205).png)
+
+
+
+
 
 TS variable nodes, (x_0)...(x_end) on Fig: 9 187 367 427 642 693 746 795 886 1104 1292 1638 1794 1866 1946 2132 2305 2528 
 
@@ -142,7 +150,10 @@ Trapping_set_submatrix =
 
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(20%2C%206).png
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(20%2C%206).png)
+
+
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 142 172 334 353 513 797 800 912 1089 1334 1434 1552 1567 1643 1690 1817 1908 1979 2161 2551 
@@ -196,7 +207,7 @@ Trapping_set_submatrix =
 
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(24%2C%208).png
+![alt text]( https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(24%2C%208).png)
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 26 86 205 230 245 349 411 453 707 750 763 970 1153 1355 1512 1947 1979 2042 2063 2173 2189 2210 2306 2438 
@@ -253,8 +264,10 @@ Trapping_set_submatrix =
 
 
 
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(25%2C%2011).png)
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(25%2C%211).png
+
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 27 33 57 116 146 268 290 302 308 430 1099 1152 1419 1448 1617 1669 1676 1885 1919 2076 2132 2172 2260 2305 2560 
@@ -314,7 +327,9 @@ Trapping_set_submatrix =
 
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(26%2C%214).png
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(26%2C%2014).png)
+
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 96 177 207 211 265 297 450 513 578 684 736 837 1023 1084 1205 1490 1730 1817 1820 1852 1865 2073 2254 2433 2450 2479 
@@ -376,8 +391,10 @@ Trapping_set_submatrix =
      0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0
 
 
+![alt text]( https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(27%2C%2015).png)
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(27%2C%215).png
+
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 28 37 57 94 133 202 232 242 279 385 490 761 1062 1268 1368 1387 1397 1443 1509 1693 1918 2105 2152 2249 2333 2343 2498 
@@ -441,7 +458,9 @@ Trapping_set_submatrix =
      0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(28%2C%217).png
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(28%2C%2017).png)
+
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 42 53 95 101 285 296 350 533 618 641 794 976 1247 1266 1484 1543 1707 1750 1761 1780 1822 1902 2053 2064 2138 2208 2339 2413 
@@ -509,7 +528,8 @@ Trapping_set_submatrix =
 
 
 
-https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(29%2C%218).png
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(29%2C%2018).png)
+
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 68 80 102 150 187 199 221 274 343 389 538 597 712 746 768 874 897 1302 1408 1628 1676 1832 1896 1953 1962 2138 2266 2370 2491 
