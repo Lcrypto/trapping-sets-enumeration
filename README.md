@@ -109,7 +109,7 @@ Optional parameters:
 
 
 
-To demonstrate the effectiveness of the proposed modified Cole method over linear programming methods , let 's consider a simple search example TS(10,6)  at Margulis Code. Search with apprior knowledge of 1 381 471 variable nodes which contain it, using CPLEX 12.8 takes 5.30 sec. (1401.17 ticks), Parallel mode: deterministic, using up to 32 threads. The proposed modified Cole method in one process finds 66 Trapping set, including this one TS(10,6) in less than one second.
+In order to showcase the superiority of the proposed modified Cole method over linear programming methods, we will examine a basic search example TS(10,6) at Margulis Code. Employing CPLEX 12.8 with prior knowledge of 1,381,471 variable nodes takes approximately 5.30 seconds (1401.17 ticks) in parallel mode employing up to 32 threads. In contrast, our proposed modified Cole method uncovers 66 Trapping sets, including the target TS(10,6), in less than one second utilizing a single process.
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 1 381 471 1691 1935 1988 2263 2412 2587 2617 
@@ -151,7 +151,7 @@ Trapping_set_submatrix =
 Detailed classification of harmfull Trapping sets with figure and submatrix for QC-LDPC code 1 and code 5 you can see at https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction
 
 
- When I have free time, I will publish an source files to Trapping set search method based on the LP outlined in my Phd Thesis, "Topologically Driven Methods for Construction Of Multi-Edge Type (Multigraph with nodes puncturing) Quasi-Cyclic Low-density Parity-check Codes for Wireless Channel, WDM Long-Haul and Archival Holographic Memory", https://arxiv.org/abs/2011.14753. 
+When I find some free time, I plan to make available the source files for a Trapping set search method that is based on the linear programming outlined in my PhD thesis titled "Topologically Driven Methods for Construction of Multi-Edge Type Quasi-Cyclic Low-Density Parity-Check Codes (Multigraph with Nodes Puncturing) for Wireless Channel, WDM Long-Haul, and Archival Holographic Memory". You can find my thesis at https://arxiv.org/abs/2011.14753.
 
 
 P.S.
