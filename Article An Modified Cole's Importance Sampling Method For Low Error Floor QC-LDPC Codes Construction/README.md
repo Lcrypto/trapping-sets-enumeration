@@ -1,5 +1,6 @@
 # Importance Sampling using modified and original Cole's LDPC trapping sets enumeration and weighing method for BER/FER error-floor estimation
-Code 5 harm Trapping Sets 
+
+## Code 5 harm Trapping Sets 
 
 
 ![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/TS(14%2C%203).png)
@@ -593,3 +594,153 @@ Trapping_set_submatrix =
      0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0
      1     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
      0     1     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+
+
+
+
+## Code 1 harm Trapping Sets 
+
+
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(2%2C2).png)
+
+
+TS variable nodes, (x_0)...(x_end) on Fig: 1 304 
+
+
+TS check nodes, (c_0)...(c_end) on Fig: 95 140 263 404 
+
+
+Trapping_set_submatrix =
+
+     1     1
+     0     1
+     1     1
+     1     0
+
+
+![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(3%2C2).png)
+
+
+TS variable nodes, (x_0)...(x_end) on Fig: 1 304 1804 
+
+
+TS check nodes, (c_0)...(c_end) on Fig: 65 95 140 263 363 404 
+
+
+Trapping_set_submatrix =
+
+     0     0     1
+     1     1     0
+     0     1     1
+     1     1     0
+     0     0     1
+     1     0     1
+
+
+
+
+![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(14%2C2).png)
+
+
+TS variable nodes, (x_0)...(x_end) on Fig: 1 14 100 116 157 238 275 291 304 317 385 643 796 2132 
+
+
+TS check nodes, (c_0)...(c_end) on Fig: 3 28 66 82 95 108 109 140 153 200 239 255 263 276 302 314 362 378 391 404 417 438 482 503 
+
+
+Trapping_set_submatrix =
+
+     0     0     0     0     0     0     0     0     0     0     0     1     0     1
+     0     0     0     0     1     0     0     0     0     0     0     0     1     0
+     0     0     1     0     0     0     1     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     1     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     1     0     0     0     0
+     0     0     0     0     0     1     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     0     1     0     0     0     0     1
+     0     0     0     0     0     1     0     0     0     1     0     0     0     0
+     0     0     0     0     1     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     1     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     1     0     0     0     0     1     0
+     1     0     0     0     0     0     0     0     1     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     1     1     0
+     0     0     0     0     0     0     0     0     0     0     1     0     0     1
+     0     0     1     0     0     0     1     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     1     0     0     0     0     0     0
+     0     0     0     1     0     1     0     0     0     0     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     0     0     0     0     1
+     0     0     0     0     1     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     1     0
+     0     0     1     0     0     0     0     0     0     0     0     1     0     0
+
+
+
+
+
+
+
+![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(21%2C3).png)
+
+
+
+TS variable nodes, (x_0)...(x_end) on Fig: 33 44 117 166 249 292 438 725 805 878 1012 1077 1281 1499 1556 1647 2035 2228 2417 
+
+
+TS check nodes, (c_0)...(c_end) on Fig: 10 34 37 83 85 108 110 120 127 136 154 163 164 186 209 254 256 276 295 306 311 338 367 375 379 384 392 402 436 447 457 484 491 501 512 
+
+
+Trapping_set_submatrix =
+
+     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     1     0     0
+     0     0     0     1     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0
+     0     0     1     0     0     1     0     0     0     0     0     0     0     0     0     1     0     0     1
+     0     0     0     0     0     0     0     1     0     0     0     0     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     1     0     0     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     1     0     0     0     0     0     0     0     0     0     1     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     1
+     0     0     0     0     1     0     1     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     1     1     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     1     0     0     0
+     0     0     0     0     0     1     0     0     0     0     0     0     0     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     1     0     1     0     0     0     0
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1
+     0     1     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     1     0
+     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     0     1     0     0
+     0     0     1     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     1     0     0     0     0     0     0     0     0     0
+     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     1
+     1     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0
+     0     1     0     1     0     0     0     0     0     0     0     0     0     0     0     1     0     0     0
+     0     0     0     0     0     0     0     1     0     0     0     0     0     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     1     0     1     0     0
+     0     0     0     0     0     0     1     0     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     1     0     0     0     0     0     0     1     0
+     0     0     0     0     0     0     0     0     0     0     0     1     1     0     0     0     0     0     0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
