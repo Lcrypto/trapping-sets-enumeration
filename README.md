@@ -148,7 +148,7 @@ Trapping_set_submatrix =
 
 
 
-
+Detailed classification of harmfull Trapping sets with figure and submatrix for QC-LDPC code 1 and code 5 you can see at https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction
 
 
  When I have free time, I will publish an source files to Trapping set search method based on the LP outlined in my Phd Thesis, "Topologically Driven Methods for Construction Of Multi-Edge Type (Multigraph with nodes puncturing) Quasi-Cyclic Low-density Parity-check Codes for Wireless Channel, WDM Long-Haul and Archival Holographic Memory", https://arxiv.org/abs/2011.14753. 
