@@ -619,7 +619,7 @@ Trapping_set_submatrix =
      1     0
 
 
-![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(3%2C2).png)
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(3%2C2).png)
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 1 304 1804 
@@ -640,7 +640,7 @@ Trapping_set_submatrix =
 
 
 
-![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(14%2C2).png)
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(14%2C2).png)
 
 
 TS variable nodes, (x_0)...(x_end) on Fig: 1 14 100 116 157 238 275 291 304 317 385 643 796 2132 
@@ -682,7 +682,7 @@ Trapping_set_submatrix =
 
 
 
-![alt text] (https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(21%2C3).png)
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction/code_1g/TS(21%2C3).png)
 
 
 
