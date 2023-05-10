@@ -148,7 +148,7 @@ Trapping_set_submatrix =
 
 
 
-To demonstrate the effectiveness of our method over the Velasquez-Subramanilinear programming method, we will analyze a large Tanner graph TS(a,b) with minimal search example TS(62,16) at Margulis Code (4896, 2448) from http://www.inference.org.uk/mackay/codes/data.html#l28. This particular Tanner graph was constructed using Ramanujan graphs and ideas from Margulis (q=17, p=5, Allerton 2000). For search we use 14 variable nodes (involved in cycles, codes girth 12) namely 6, 41, 1132, 1140, 1508, 1561, 1988, 2506, 3154, 3182, 3444, 3575, 4141, and 4710 with prior knowledge. Additionally, we will use the two-step cycle increase method:
+To demonstrate the effectiveness of our method over the Velasquez-Subramanilinear programming method, we will analyze a large Tanner graph TS(a,b) with minimal search example TS(62,16) at Margulis Code (4896, 2448) from http://www.inference.org.uk/mackay/codes/data.html#l28. This particular Tanner graph was constructed using Ramanujan graphs and ideas from Margulis (q=17, p=5, J. Rosenthal and P. O. Vontobel, "Constructions of regular and irregular LDPC codes using Ramanujan graphs and ideas from Margulis," Proceedings. 2001 IEEE International Symposium on Information Theory,  2001, pp. 4-). For search we use 14 variable nodes (involved in cycles, codes girth 12) namely 6, 41, 1132, 1140, 1508, 1561, 1988, 2506, 3154, 3182, 3444, 3575, 4141, and 4710 with prior knowledge. Additionally, we will use the two-step cycle increase method:
 
 
 step_1 VN:  6 41 364 719 769 880 970 1097 1132 1140 1164 1274 1385 1508 1561 1625 1681 1716 1988 2194 2216 2369 2506 2738 2765 2950 3154 3182 3444 3575 3940 4012 4109 4141 4162 4355 4463 4547 4581 4710 4800 4864 
