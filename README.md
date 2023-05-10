@@ -148,6 +148,27 @@ Trapping_set_submatrix =
 
 
 
+Second example to showcase the superiority of the our method over Velasquez-Subramanilinear programming method, we will examine a larges TS(a,b), where b is minimal search example  TS(62,16) at Margulis Code [4896 2448] from http://www.inference.org.uk/mackay/codes/data.html#l28 (Pascal Vontobel and Joachim Rosenthal Constructed using Ramanujan graphs and ideas from Margulis. (q=17, p=5, Allerton 2000) . Employing  with prior knowledge of 6, 41, 1132, 1140, 1508, 1561, 1988, 2506, 3154, 3182, 3444, 3575, 4141, 4710 variable nodes (involved in cycles, codes girth 12) 
+and 2 step of cycles increase 
+step_1  6 41 364 719 769 880 970 1097 1132 1140 1164 1274 1385 1508 1561 1625 1681 1716 1988 2194 2216 2369 2506 2738 2765 2950 3154 3182 3444 3575 3940 4012 4109 4141 4162 4355 4463 4547 4581 4710 4800 4864 
+step_2  6 41 65 159 364 719 769 880 970 981 1097 1132 1140 1164 1274 1279 1385 1508 1561 1625 1681 1716 1823 1979 1988 2194 2216 2369 2460 2506 2738 2765 2795 2855 2950 2976 3024 3154 3182 3271 3444 3566 3575 3836 3940 4012 4109 4141 4162 4355 4396 4401 4463 4547 4581 4671 4710 4800 4859 4864 
+
+
+
+We found TS(62,16) with  TS variable nodes: 6 41 65 159 364 546 719 769 880 970 981 1097 1132 1140 1164 1274 1279 1385 1508 1561 1625 1681 1716 1819 1823 1979 1988 2194 2216 2369 2460 2506 2738 2765 2795 2855 2950 2976 3024 3154 3182 3271 3444 3566 3575 3836 3940 4012 4109 4141 4162 4355 4396 4401 4463 4547 4581 4671 4710 4800 4859 4864 
+
+
+
+
+
+and it take approximately  1.25 sec. (292.92 ticks) in parallel mode employing up to 32 threads. For example in article https://www.sciencedirect.com/science/article/pii/S030439752200127X Alvaro Velasquez, K. Subramani, Piotr Wojciechowski,
+On the complexity of and solutions to the minimum stopping and trapping set problems, Theoretical Computer Science, Volume 915,
+2022,Pages 26-44 was claimed as one of our main results is finding a stopping set of size 48 in the 
+Margulis Code [4896 2448] (see Fig. 11 in https://www.cs.ucf.edu/~velasquez/StoppingSets/) in 700451 seconds. We need less than one minutes overall (search of variable nodes in cycles and after search of TS(a,b)) to found much more complex TS(62,16) in Margulis Code(4896 2448).
+
+
+
+
 Detailed classification of harmfull Trapping sets with figure and submatrix for QC-LDPC code 1 and code 5 you can see at https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction
 
 
