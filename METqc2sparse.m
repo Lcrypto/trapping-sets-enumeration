@@ -1,4 +1,8 @@
 function [H, n, m, z] = METqc2sparse(qcHFileName)
+% read qc-ldpc codes with multi-circulant weigth (multigraph)
+% zero block -1, multiple circulant write using &
+
+
     fid = fopen(qcHFileName, "r");
     n = fscanf(fid, "%d", [1 1]);
     m = fscanf(fid, "%d", [1 1]);
@@ -13,7 +17,7 @@ function [H, n, m, z] = METqc2sparse(qcHFileName)
             shiftList = [];
             shift = fscanf(fid, "%d", [1 1]);
             
-            % Recursively read shift2 values until a -1 is encountered
+            % Recursively read shift2 values until a empty is encountered
             while true
                 shift2 = fscanf(fid, "&%d", [1 1]);
                 if  isempty(shift2)
