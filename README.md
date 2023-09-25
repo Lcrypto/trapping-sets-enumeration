@@ -289,6 +289,9 @@ Detailed classification of harmfull Trapping sets with figure and submatrix for 
 When I find some free time, I plan to make available the source files for a Trapping set search method that is based on the linear programming outlined in my PhD thesis titled "Topologically Driven Methods for Construction of Multi-Edge Type Quasi-Cyclic Low-Density Parity-Check Codes (Multigraph with Nodes Puncturing) for Wireless Channel, WDM Long-Haul, and Archival Holographic Memory". You can find my thesis at https://arxiv.org/abs/2011.14753.
 
 
+Stopping Sets enumerator using Linear Programming implementation https://github.com/Lcrypto/Stopping-sets-enumerator 
+
+
 P.S.
 Update as of January 20th, 2022: As a gift for the New Year, Dr. Chad A. Cole has kindly shared his MATLAB source code for Trapping Set analysis. The source code can be found in the "Chad Cole LDPC Error Floor Archive" folder. Trapping Sets are an important research topic that is thoroughly described in Dr. Cole's report [1] and paper [2].
 
