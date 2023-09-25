@@ -289,7 +289,7 @@ Detailed classification of harmfull Trapping sets with figure and submatrix for 
 When I find some free time, I plan to make available the source files for a Trapping set search method that is based on the linear programming outlined in my PhD thesis titled "Topologically Driven Methods for Construction of Multi-Edge Type Quasi-Cyclic Low-Density Parity-Check Codes (Multigraph with Nodes Puncturing) for Wireless Channel, WDM Long-Haul, and Archival Holographic Memory". You can find my thesis at https://arxiv.org/abs/2011.14753.
 
 
-Stopping Sets enumerator using Linear Programming implementation https://github.com/Lcrypto/Stopping-sets-enumerator 
+You can find the C++ implementation of the stopping sets enumerator using linear programming at the following link:  https://github.com/Lcrypto/Stopping-sets-enumerator 
 
 
 P.S.
