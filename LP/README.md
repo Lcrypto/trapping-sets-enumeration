@@ -30,4 +30,7 @@ References
 [8]. Velasquez A., et al. Finding Minimum Stopping and Trapping Sets: An Integer Linear Programming Approach // In: Lee J., Rinaldi G., Mahjoub A. (eds) Comb. Optim. ISCO 2018. Lect. Notes in Comp. Science, V. 10856., pp. 402–415
 
 
-[9]. Usatjuk V.S., Egorov S.I. Construction of LDPC Codes Using Cole's Modified Importance Sampling Method. Proceedings of the Southwest State University. 2023;27(1):92-110. (In Russ.) https://doi.org/10.21869/2223-1560-2023-27-1-92-110
+[9]. Usatyuk V.S., Egorov S.I. Construction of LDPC Codes Using Cole's Modified Importance Sampling Method. Proceedings of the Southwest State University. 2023;27(1):92-110. (In Russ.) https://doi.org/10.21869/2223-1560-2023-27-1-92-110
+
+
+10. Usatyuk V.S., Egorov S.I. Trapping Sets Search Using the Method of Mixed Integer Linear Programming with a Priori List of Variable Nodes. Proceedings of the Southwest State University. 2024; 27(4):79-97. (In Russ.) http://dx.doi.org/10.21869/2223-1560-2023-27-4-79-97
