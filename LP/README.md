@@ -1,6 +1,6 @@
 # This repositories contained  Mixed Linear Programing method for Trappings set search
 
-The folder contains a Jupyter Notebook script named `main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb`, which implements a Mixed Integer Linear Programming (MILP) method for enumerating trapping sets as described in detail in articles [11-12].
+The folder contains a Jupyter Notebook script named (`main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb`)[https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb], which implements a Mixed Integer Linear Programming (MILP) method for enumerating trapping sets as described in detail in articles [11-12].
 
 The method introduced in the paper offers an efficient way to identify trapping sets in codes represented on graphs, using a mixed linear programming approach. This method ensures a comprehensive search, which is crucial for nonlinear communication channels, energy-based models, natural language processing deep neural networks, metric learning, and other complex dynamic systems. By analyzing the symmetry and asymmetry properties of dynamic systems through trapping sets (TS(a, 0) for codewords and TS(a, b) for pseudocodewords), the method provides a detailed understanding of their behavior.
 
