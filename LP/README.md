@@ -74,6 +74,7 @@ The method was applied to search for trapping sets in LDPC codes using IBM CPLEX
 
 Additionally, the method successfully identified trapping sets TS(62,16) and TS(52,14) for the first time in the Margulis code (4896, 2474), showcasing its thorough search capabilities. Furthermore, in the Mackay LDPC code (408,204), the method discovered trapping sets TS(102,2) and TS(108,4) with the help of CPLEX Community Edition version 22.1.1.0. Notably, these findings required a brute-force trapping set search, which would have demanded over $10^{101}$ operations without this efficient method.
 
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/ExtrLargeTS.png)
 
 
 ### Citation
