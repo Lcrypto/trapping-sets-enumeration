@@ -86,7 +86,7 @@ If you use this method, please cite the following paper:
 [11] Usatyuk V.S., Egorov S.I. Trapping Sets Search Using the Method of Mixed Integer Linear Programming with a Priori List of Variable Nodes. Proceedings of the Southwest State University. 2024; 27(4):79-97. (In Russ.) http://dx.doi.org/10.21869/2223-1560-2023-27-4-79-97
 
 
-References
+## References
 
 
 [1].  Chad A. Cole, et al. Hall A General Method for Finding Low Error Rates of LDPC Codes, May 2006 https://arxiv.org/abs/cs/0605051
