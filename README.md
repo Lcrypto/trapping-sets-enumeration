@@ -1,4 +1,4 @@
-# Importance Sampling using modified and original Cole's LDPC trapping sets enumeration and weighing method for BER/FER error-floor estimation
+# Linear Programming, Importance Sampling using modified and original Cole's LDPC trapping sets enumeration and weighing method for BER/FER error-floor estimation
 
 
 The subfolder titled ["LP"](https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/LP) contains a Jupyter Notebook script named [`main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb`](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb), which implements a method using Mixed Integer Linear Programming (MILP) for enumerating trapping sets. This approach is detailed in the following articles:
