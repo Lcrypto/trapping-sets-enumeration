@@ -35,3 +35,5 @@ References
 
 
 [11]. Usatyuk V.S., Egorov S.I. Trapping Sets Search Using the Method of Mixed Integer Linear Programming with a Priori List of Variable Nodes. Proceedings of the Southwest State University. 2024; 27(4):79-97. (In Russ.) http://dx.doi.org/10.21869/2223-1560-2023-27-4-79-97
+
+[12] V. S. Usatyuk and S. I. Egorov, "Mixed Integer Linear Programming Method for Energy-Based Model Trapping Sets Enumerating," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6, doi: 10.1109/DSPA60853.2024.10510058. https://ieeexplore.ieee.org/document/10510058
