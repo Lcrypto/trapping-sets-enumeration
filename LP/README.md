@@ -60,13 +60,7 @@ selector = (10, 48)
 - The `desired_a` parameter is used to specify the desired value of 'a' in the trapping set notation (`TS(a, b)`), with 'b' currently unspecified.
 - `selector` defines a list of predetermined nodes (symbols) within the graph for targeted analysis.
 
-Please ensure that the required matrix file (`Mackay_408.33.864.alist`) is available in the same directory or specified path for proper execution of the script.
-
-For further details on matrix formats and related functions, refer to the provided GitHub repository and associated documentation.
-
----
-
-Feel free to adjust or expand upon this README text based on specific project requirements or additional context. Let me know if you need further modifications or assistance!
+Please ensure that the required parity-check matrix file (`Mackay_408.33.864.alist`) is available in the same directory or specified path for proper execution of the script.
 
 
 
