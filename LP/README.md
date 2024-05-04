@@ -30,6 +30,48 @@ pip install cplex==22.1.1.0 igraph==0.11.3 matplotlib==3.7.1 networkx==3.2.1 num
 After installing these packages, you should be able to execute the script `main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb` successfully in your Python environment.
 
 
+Certainly! Here's a revised version suitable for a README text file:
+
+---
+
+## Trapping Sets Enumeration
+
+The following script demonstrates the process of enumerating trapping sets (TS(a, b)) within a graph:
+
+```python
+# Desired value 'a' in TS(a, b) (where 'b' is unknown)
+desired_a = 102
+# This value represents the desired 'a' parameter in the trapping set notation TS(a, b), with 'b' yet to be determined.
+
+# Load the sparse matrix 'H_full' from an alist file for analysis
+H_full = alist2sparse("Mackay_408.33.864.alist")
+# The function 'alist2sparse' converts the alist format matrix into a sparse representation suitable for analysis.
+# The file contains connectivity data in a format similar to that used by MATLAB's qc2sparse function.
+# For more information on matrix formats and processing, refer to: https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/qc2sparse.m
+
+# Define a list of predetermined nodes (symbols, variable nodes)
+selector = (10, 48)
+# This list represents a selection of specific nodes or symbols within the graph for further analysis.
+```
+
+### Additional Notes:
+
+- The script loads a graph representation (`H_full`) from an alist file (`Mackay_408.33.864.alist`), which contains connectivity information.
+- The `desired_a` parameter is used to specify the desired value of 'a' in the trapping set notation (`TS(a, b)`), with 'b' currently unspecified.
+- `selector` defines a list of predetermined nodes (symbols) within the graph for targeted analysis.
+
+Please ensure that the required matrix file (`Mackay_408.33.864.alist`) is available in the same directory or specified path for proper execution of the script.
+
+For further details on matrix formats and related functions, refer to the provided GitHub repository and associated documentation.
+
+---
+
+Feel free to adjust or expand upon this README text based on specific project requirements or additional context. Let me know if you need further modifications or assistance!
+
+
+
+
+
 The method introduced in the paper offers an efficient way to identify trapping sets in codes represented on graphs, using a mixed linear programming approach. This method ensures a comprehensive search, which is crucial for nonlinear communication channels, energy-based models, natural language processing deep neural networks, metric learning, and other complex dynamic systems. By analyzing the symmetry and asymmetry properties of dynamic systems through trapping sets (TS(a, 0) for codewords and TS(a, b) for pseudocodewords), the method provides a detailed understanding of their behavior.
 
 Implemented in Python, this method is publicly available on GitHub and supports both the Community Edition (with limited conditions) and the Commercial Edition of CPLEX. The technique involves solving a mixed integer linear programming problem using a predefined list of variable nodes participating in the shortest cycles with small Extrinsic Message Degree values within the code graph. These cycles, similar to topological invariants, represent multidimensional voids formed by code and pseudocode words. Therefore, this method can be seen as an approach to construct topological complexes and calculate topological invariants.
