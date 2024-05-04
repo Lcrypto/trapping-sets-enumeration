@@ -36,7 +36,7 @@ Certainly! Here's a revised version suitable for a README text file:
 
 ## Trapping Sets Enumeration
 
-The following script demonstrates the process of enumerating trapping sets (TS(a, b)) within a graph:
+The following script demonstrates major parameters for the process of enumerating trapping sets (TS(a, b)) within a graph:
 
 ```python
 # Desired value 'a' in TS(a, b) (where 'b' is unknown)
