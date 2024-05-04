@@ -75,6 +75,19 @@ The method was applied to search for trapping sets in LDPC codes using IBM CPLEX
 Additionally, the method successfully identified trapping sets TS(62,16) and TS(52,14) for the first time in the Margulis code (4896, 2474), showcasing its thorough search capabilities. Furthermore, in the Mackay LDPC code (408,204), the method discovered trapping sets TS(102,2) and TS(108,4) with the help of CPLEX Community Edition version 22.1.1.0. Notably, these findings required a brute-force trapping set search, which would have demanded over $10^{101}$ operations without this efficient method.
 
 
+
+### Citation
+
+If you use this method, please cite the following paper:
+
+[12] V. S. Usatyuk and S. I. Egorov, "Mixed Integer Linear Programming Method for Energy-Based Model Trapping Sets Enumerating," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6, doi: [10.1109/DSPA60853.2024.10510058](https://doi.org/10.1109/DSPA60853.2024.10510058).
+
+
+
+
+[11] Usatyuk V.S., Egorov S.I. Trapping Sets Search Using the Method of Mixed Integer Linear Programming with a Priori List of Variable Nodes. Proceedings of the Southwest State University. 2024; 27(4):79-97. (In Russ.) http://dx.doi.org/10.21869/2223-1560-2023-27-4-79-97
+
+
 References
 
 
