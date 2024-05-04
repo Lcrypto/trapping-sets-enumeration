@@ -2,6 +2,34 @@
 
 The folder contains a Jupyter Notebook script named [`main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb`](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb), which implements a Mixed Integer Linear Programming (MILP) method for enumerating trapping sets as described in detail in articles [11-12].
 
+
+The script requires the following Python packages with specific versions:
+
+- `cplex` (version 22.1.1.0)
+- `igraph` (version 0.11.3)
+- `matplotlib` (version 3.7.1)
+- `networkx` (version 3.2.1)
+- `numpy` (version 1.23.5)
+- `session_info` (version 1.0.0)
+
+Additionally, the script was executed in an environment with the following dependencies:
+
+- `IPython` (version 7.34.0)
+- `jupyter_client` (version 6.1.12)
+- `jupyter_core` (version 5.5.0)
+- `notebook` (version 6.5.5)
+
+The Python version used for running the script was 3.10.12, and the script was executed on a Linux system with kernel version 5.15.120.
+
+Make sure to have these packages installed in your environment with the specified versions to run the script successfully. You can use pip to install these packages and their respective versions:
+
+```bash
+pip install cplex==22.1.1.0 igraph==0.11.3 matplotlib==3.7.1 networkx==3.2.1 numpy==1.23.5 session_info==1.0.0
+```
+
+After installing these packages, you should be able to execute the script `main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb` successfully in your Python environment.
+
+
 The method introduced in the paper offers an efficient way to identify trapping sets in codes represented on graphs, using a mixed linear programming approach. This method ensures a comprehensive search, which is crucial for nonlinear communication channels, energy-based models, natural language processing deep neural networks, metric learning, and other complex dynamic systems. By analyzing the symmetry and asymmetry properties of dynamic systems through trapping sets (TS(a, 0) for codewords and TS(a, b) for pseudocodewords), the method provides a detailed understanding of their behavior.
 
 Implemented in Python, this method is publicly available on GitHub and supports both the Community Edition (with limited conditions) and the Commercial Edition of CPLEX. The technique involves solving a mixed integer linear programming problem using a predefined list of variable nodes participating in the shortest cycles with small Extrinsic Message Degree values within the code graph. These cycles, similar to topological invariants, represent multidimensional voids formed by code and pseudocode words. Therefore, this method can be seen as an approach to construct topological complexes and calculate topological invariants.
