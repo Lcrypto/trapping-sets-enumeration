@@ -29,9 +29,6 @@ pip install cplex==22.1.1.0 igraph==0.11.3 matplotlib==3.7.1 networkx==3.2.1 num
 
 After installing these packages, you should be able to execute the script `main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb` successfully in your Python environment.
 
-
-Certainly! Here's a revised version suitable for a README text file:
-
 ---
 
 ## Trapping Sets Enumeration
