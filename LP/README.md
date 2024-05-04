@@ -1,8 +1,14 @@
 # This repositories contained  Mixed Linear Programing method for Trappings set search
 
+The folder contains a Jupyter Notebook script named `main_MLP_Trapping_Set_Enumeration_with_VNs.ipynb`, which implements a Mixed Integer Linear Programming (MILP) method for enumerating trapping sets as described in detail in articles [11-12].
 
+The method introduced in the paper offers an efficient way to identify trapping sets in codes represented on graphs, using a mixed linear programming approach. This method ensures a comprehensive search, which is crucial for nonlinear communication channels, energy-based models, natural language processing deep neural networks, metric learning, and other complex dynamic systems. By analyzing the symmetry and asymmetry properties of dynamic systems through trapping sets (TS(a, 0) for codewords and TS(a, b) for pseudocodewords), the method provides a detailed understanding of their behavior.
 
+Implemented in Python, this method is publicly available on GitHub and supports both the Community Edition (with limited conditions) and the Commercial Edition of CPLEX. The technique involves solving a mixed integer linear programming problem using a predefined list of variable nodes participating in the shortest cycles with small Extrinsic Message Degree values within the code graph. These cycles, similar to topological invariants, represent multidimensional voids formed by code and pseudocode words. Therefore, this method can be seen as an approach to construct topological complexes and calculate topological invariants.
 
+The method was applied to search for trapping sets in LDPC codes using IBM CPLEX Optimization Studio version 22.1.0.0. The computations were performed on a 16-core AMD Ryzen 3950X processor with 128GB of DDR4 RAM, utilizing 32 threads. For example, in the Margulis code (2640, 1320), the method identified the trapping set TS(6,6) in just 0.29 seconds, showing a significant speed improvement compared to the Velasquez-Subramani method.
+
+Additionally, the method successfully identified trapping sets TS(62,16) and TS(52,14) for the first time in the Margulis code (4896, 2474), showcasing its thorough search capabilities. Furthermore, in the Mackay LDPC code (408,204), the method discovered trapping sets TS(102,2) and TS(108,4) with the help of CPLEX Community Edition version 22.1.1.0. Notably, these findings required a brute-force trapping set search, which would have demanded over $10^{101}$ operations without this efficient method.
 
 
 References
