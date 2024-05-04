@@ -6,6 +6,16 @@ The subfolder titled ["LP"](https://github.com/Lcrypto/trapping-sets-enumeration
 - V. S. Usatyuk and S. I. Egorov, "Mixed Integer Linear Programming Method for Energy-Based Model Trapping Sets Enumerating," presented at the 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, pp. 1-6. [DOI: 10.1109/DSPA60853.2024.10510058](https://ieeexplore.ieee.org/document/10510058)
 
 
+ The method was applied to search for trapping sets in LDPC codes, utilizing the mathematical linear programming package IBM CPLEX Optimization Studio version 22.1.0.0 The computations ran on a 16-core AMD Ryzen 3950X processor with 128GB KF3200 DDR4 RAM, utilizing 32 threads. In the Margulis code (2640, 1320), the proposed method identified the trapping set TS(6,6) in just 0.29 seconds. Notably, compared to the Velasquez-Subramani method, the proposed method achieved a speedup of 15082 times. Leveraging its high speed and thorough search capabilities, the method successfully identified trapping sets TS(62,16) and TS(52,14) for the first time in the Margulis code (4896, 2474). %Finally, employing the proposed method, we discovered trapping sets, specifically $TS(102,2)$ and $TS(108,4)$, within the Mackay LDPC code $(408,204)$. These findings necessitated a brute-force trapping set search, demanding more than $10^{101}$ operations.
+Finally, employing the proposed method with CPLEX Community Edition version 22.1.1.0, we discovered trapping sets, specifically $TS(102,2)$ and $TS(108,4)$, within the Mackay LDPC code $(408,204)$. These findings necessitated a brute-force trapping set search, demanding more than $10^{101}$ operations.
+
+
+![alt text](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/ExtrLargeTS.png)
+
+
+
+
+
 The subfolder titled  ["Article An Modified Cole's Importance Sampling Method For Low Error Floor QC-LDPC Codes Construction"](https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction) contains multiple txt file and compressed zip file for five different QC-LDPC codes that were constructed for the article titled "Low Error Floor QC-LDPC Codes Construction Using Modified Cole's Trapping Sets Enumerating" by V. S. Usatyuk at the 2023 25th International Conference on Digital Signal Processing and its Applications (DSPA) in Moscow, Russian Federation, https://ieeexplore.ieee.org/document/10113442. These zip file contain parity-check matrices, EMD Spectrum Enumerators (estimated using my Extrinsic Message Degree Spectrum tool), and Trapping set enumerators (without ordering). In addition to the previously mentioned contents, the subfolder also includes a detailed classification of the most harmful Trapping sets for QC-LDPC codes 1 and 5. This classification is presented with [figures and submatrix](https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/Article%20An%20Modified%20Cole's%20Importance%20Sampling%20Method%20For%20Low%20Error%20Floor%20QC-LDPC%20Codes%20Construction) to provide a clear understanding of these Trapping sets. Additionally, there is other relevant information available in this folder.
 
 
