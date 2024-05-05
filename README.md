@@ -6,6 +6,12 @@ The subfolder titled ["LP"](https://github.com/Lcrypto/trapping-sets-enumeration
 - V. S. Usatyuk and S. I. Egorov, "Mixed Integer Linear Programming Method for Energy-Based Model Trapping Sets Enumerating," presented at the 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, pp. 1-6. [DOI: 10.1109/DSPA60853.2024.10510058](https://ieeexplore.ieee.org/document/10510058)
 
 
+
+
+## ![Colab ready to work script url](https://colab.research.google.com/gist/Lcrypto/c589fac512fc821024708dd27c91ae63/trapping_set_enumeration_with_vns.ipynb), just upload to your files folder parity-check matrix file Mackay_408.33.864.alist(or Mackay_96.3.967.alist, tanner.qc from this folder) or your matrix in alist of qc format.
+
+
+
  The method was applied to search for trapping sets in LDPC codes, utilizing the mathematical linear programming package IBM CPLEX Optimization Studio version 22.1.0.0 The computations ran on a 16-core AMD Ryzen 3950X processor with 128GB KF3200 DDR4 RAM, utilizing 32 threads. In the Margulis code (2640, 1320), the proposed method identified the trapping set TS(6,6) in just 0.29 seconds. Notably, compared to the Velasquez-Subramani method, the proposed method achieved a speedup of 15082 times. Leveraging its high speed and thorough search capabilities, the method successfully identified trapping sets TS(62,16) and TS(52,14) for the first time in the Margulis code (4896, 2474). 
 Finally, employing the proposed method with CPLEX Community Edition version 22.1.1.0, we discovered trapping sets, specifically $TS(102,2)$ and $TS(108,4)$, within the Mackay LDPC code $(408,204)$. These findings necessitated a brute-force trapping set search, demanding more than $10^{101}$ operations.
 
