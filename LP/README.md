@@ -47,7 +47,9 @@ H_full = alist2sparse("Mackay_408.33.864.alist")
 # For more information on matrix formats and processing, refer to: https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/qc2sparse.m
 
 # Define a list of predetermined nodes (symbols, variable nodes)
-selector = (10, 48)
+selector = (  8,   9,  10,  13,  19,  20,  21,  24,  30,  32,  35,  37,  40,  44,  45,  47,  48, 50, 51,  53,  54,  57,  58,  59,  61,  67,  68, 70,  82,  87,  97, 101, 109, 114, 116, 124,129, 134, 139, 147, 148, 151, 153, 158, 162, 163, 164, 165, 167, 171, 174, 177, 180, 191,207, 208, 212, 213, 215, 222, 228, 229, 231, 232, 238, 244, 250, 254, 260, 261, 268, 269, 270, 273, 276, 280, 282, 287, 290, 292, 294, 296, 302, 311, 320, 323, 332, 337, 340, 349, 350, 352, 354, 356, 358, 361, 373, 377, 383, 400, 403, 405)
+
+
 # This list represents a selection of specific nodes or symbols within the graph for further analysis.
 ```
 
