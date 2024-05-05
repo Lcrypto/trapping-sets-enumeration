@@ -8,7 +8,7 @@ The subfolder titled ["LP"](https://github.com/Lcrypto/trapping-sets-enumeration
 
 
 
-## ![Colab ready to work script url](https://colab.research.google.com/gist/Lcrypto/c589fac512fc821024708dd27c91ae63/trapping_set_enumeration_with_vns.ipynb), just upload to your files folder parity-check matrix file Mackay_408.33.864.alist(or Mackay_96.3.967.alist, tanner.qc from this folder) or your matrix in alist of qc format.
+## [Colab ready to work script url](https://colab.research.google.com/gist/Lcrypto/c589fac512fc821024708dd27c91ae63/trapping_set_enumeration_with_vns.ipynb), just upload to your files folder parity-check matrix file Mackay_408.33.864.alist(or Mackay_96.3.967.alist, tanner.qc from LP folder) or your matrix in alist of qc format.
 
 
 
