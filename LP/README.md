@@ -4,7 +4,7 @@ The folder contains a Jupyter Notebook script named [`main_MLP_Trapping_Set_Enum
 
 
 
-## [Colab ready to work script url](https://colab.research.google.com/gist/Lcrypto/c589fac512fc821024708dd27c91ae63/trapping_set_enumeration_with_vns.ipynb), just upload to your files folder parity-check matrix file [Mackay_408.33.864.alist](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/Mackay_408.33.864.alist)   ( or Mackay_96.3.967.alist, tanner.qc from LP folder) or your matrix in alist of qc format. GPU not necessary to use.
+## [Colab ready to work script url](https://colab.research.google.com/gist/Lcrypto/c589fac512fc821024708dd27c91ae63/trapping_set_enumeration_with_vns.ipynb), just upload to your files folder parity-check matrix file [Mackay_408.33.864.alist](https://github.com/Lcrypto/trapping-sets-enumeration/blob/master/LP/Mackay_408.33.864.alist)   ( or Mackay_96.3.967.alist, tanner.qc from  ["LP"](https://github.com/Lcrypto/trapping-sets-enumeration/tree/master/LP)  folder) or your matrix in alist of qc format. GPU not necessary to use.
 
 
 
