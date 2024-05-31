@@ -413,7 +413,7 @@ Trapping set (108, 4) submatrix:
 
 ### Citation
 
-If you use this method, please cite the following paper:
+If you use this method, please cite the following papers:
 
 [12] V. S. Usatyuk and S. I. Egorov, "Mixed Integer Linear Programming Method for Energy-Based Model Trapping Sets Enumerating," 2024 26th International Conference on Digital Signal Processing and its Applications (DSPA), Moscow, Russian Federation, 2024, pp. 1-6, doi: [10.1109/DSPA60853.2024.10510058](https://doi.org/10.1109/DSPA60853.2024.10510058).
 
